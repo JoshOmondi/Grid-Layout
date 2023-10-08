@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Rubik;
+}
+
+body{
+    background-color: rgb(11, 11, 78);
+    height: 100vh;
+    
+}
+
+.main{
+    display: grid;
+    grid-template-areas: 
+    'profile work play study'
+    'profile exercise social selfcare';
+    margin: auto;
+    /* position: relative; */
+    gap: 20px;
+    width: 70vw;
+    height: 70vh;
+    font-size: 11px; 
+}
+.profile > h2{
+    color: white;
+    margin-top: 30px;
+}
+.work,.profile,.play,.study,.exercise,.social,.selfcare{
+    color: aliceblue;
+}
+
+.work >h1,.play>h1,.study>h1,.exercise>h1,.social>h1,.selfcare>h1,.profile>h2{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.profile{
+    grid-area: profile;
+    padding: 30px;
+    background-color: rgb(78, 78, 216);
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.work{
+    grid-area: work;
+    padding: 30px;
+    background-color: rgb(6, 6, 56);
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.play{
+    grid-area: play;
+    color: white;
+    padding: 30px;
+    background-color: rgb(6, 6, 56);
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.study{
+    grid-area: study;
+    color: white;
+    padding: 30px;
+    background-color: rgb(6, 6, 56);
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.exercise{
+    grid-area: exercise;
+    color: white;
+    padding: 30px;
+    position: relative;
+    /* top: 20px; */
+    background-color: rgb(6, 6, 56);
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.social{
+    grid-area: social;
+    color: white;
+    padding: 30px;
+    background-color: rgb(6, 6, 56);
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.selfcare{
+    grid-area: selfcare;
+    color: white;
+     padding: 30px;
+    background-color: rgb(6, 6, 56);
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.profile>img{
+    width: 120px;
+}
+.top{
+    margin-top: 20px;
+}
+.bottom{
+    background-color: rgb(6, 6, 56);
+    margin-top: 20px;
+    padding: 50px;
+    /* width: 200px; */
+}
+
+
